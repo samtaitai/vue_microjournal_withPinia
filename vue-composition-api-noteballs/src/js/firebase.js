@@ -1,14 +1,13 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
-require('dotenv').config()
 
 const firebaseConfig = {
-  apiKey: process.env.API_KEY,
+  apiKey: "AIzaSyDEE-kD4umYbPuKor7TKT6BGaqehT-r9hg",
   authDomain: "moteballs.firebaseapp.com",
   projectId: "moteballs",
   storageBucket: "moteballs.appspot.com",
-  messagingSenderId: process.env.MESSAGING_SENDER_ID,
-  appId: process.env.APP_ID
+  messagingSenderId: "696956159865",
+  appId: "1:696956159865:web:cefe3f0a5f190262c111a8"
 };
 
 const app = initializeApp(firebaseConfig);
