@@ -6,7 +6,7 @@
         <div class="container is-max-desktop px-2">
             <div class="navbar-brand">
                 <div class="navbar-item is-size-4 is-family-monospace">
-                    Noteballs
+                    Moteballs
                 </div>
                 <a 
                 class="navbar-burger" 
